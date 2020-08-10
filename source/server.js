@@ -85,7 +85,8 @@ nunjucks.configure('source/views', {
     noCache: true
 })
 
-server.use(express.static("public")) // configurar arquivos estáticos (css, scripts, images)
+// configurar arquivos estáticos (css, scripts, images)
+server.use(express.static("public"))
     // definindo rotas de aplicação
     .get("/", pageLanding)
     .get("/study", pageStudy)
