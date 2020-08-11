@@ -11,7 +11,7 @@ Database.then(async (db) => {
     }
 
     classValue = {
-        subject: "Química",
+        subject: 1,
         cost: "35,00"
         // o proffy id virá pelo bd
     }
@@ -45,6 +45,15 @@ Database.then(async (db) => {
     `)
     // console.log(selectClassesAndProffys);
 
-    // o horário do time_from precisa ser antes ou igual ao horário solicitado
-    // o time_to precisa ser acima
+    // o horário do time_from precisa ser menor ou igual ao horário solicitado
+    // o time_to precisa ser maior
+    const selectClassesSchedules = await db.all(`
+        SELECT class_schedule.*
+        FROM class_schedule
+        WHERE class_schedule.class_id = "1"
+        AND class_schedule.weekday = "0"
+        AND class_schedule.time_from <= "1420"
+        AND class_schedule.time_to > "1420"
+    `)
+    // console.log(selectClassesSchedules);
 })
