@@ -57,7 +57,7 @@ async function saveClasses(req, res) {
 
     const proffyValue = {
         name: req.body.name,
-        avatar: req.body.avatar.avatar,
+        avatar: req.body.avatar,
         whatsapp: req.body.whatsapp,
         bio: req.body.bio
     }
