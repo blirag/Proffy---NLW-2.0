@@ -36,6 +36,6 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 <br>
 
 <h2 id="licenca"> 📄 Licença </h2>
-<p> Esse projeto está sob a licença MIT. Veja o arquivo <a href="license.md"> LICENSE </a> para mais detalhes. </p>
+<p> Esse projeto está sob a licença MIT. Veja o arquivo <a href="LICENSE.md"> LICENSE </a> para mais detalhes. </p>
 <br>
 Create by Beatriz Lira 🎈
