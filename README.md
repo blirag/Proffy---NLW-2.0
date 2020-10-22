@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./public/images/logo.svg" style="background: #916BEA">
+<h1 style="color: #916BEA">Proffy</h1>
 
 <a href="#projeto">Projeto |</a>
 <a href="#tecnologias">Tecnologias |</a>
